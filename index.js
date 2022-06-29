@@ -20,7 +20,6 @@ let tipoIva = 0
 let seleccionIva = parseInt(prompt(`Usted está pagando ${cantFacturas} facturas.
                                     \nEl valor total ingresado hasta el momento es de: $ ${importeTotal}.
                                     \n${textoListado()}
-                                    \n------------
                                     \nSelecciona el tipo de IVA de tus facturas:
                                     \n1. Productos GENERAL (21%)
                                     \n2. Productos REDUCIDO (10.5%)
@@ -33,7 +32,6 @@ while(seleccionIva > 4 || seleccionIva < 1){
     seleccionIva = parseInt(prompt(`Usted está pagando ${cantFacturas} facturas.
                                     \nEl valor total ingresado hasta el momento es de: $ ${importeTotal}.
                                     \n${textoListado()}
-                                    \n------------
                                     \nSelecciona el tipo de IVA de tus facturas:
                                     \n1. Productos GENERAL (21%)
                                     \n2. Productos REDUCIDO (10.5%)
